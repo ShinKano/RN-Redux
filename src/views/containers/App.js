@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
-import { Text, View} from 'react-native';
+import React from 'react';
 //
 import LandingPage from '../components/LandingPage';
 
 
-export default class App extends Component {
-    
-    render() {
-        return (
-            <LandingPage />
-        );
-    }
+const App = () => {
+    return (
+        <LandingPage />
+    )
 }
-
+export default App;
